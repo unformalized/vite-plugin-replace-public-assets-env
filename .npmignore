@@ -1,0 +1,7 @@
+# 发布 npm 包时只上传 dist 目录, dist 目录在 package.json 的 files 字段中配置
+.docs
+config
+docs
+node_modules
+src
+!dist/src

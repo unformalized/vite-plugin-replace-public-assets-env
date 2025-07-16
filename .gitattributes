@@ -1,0 +1,23 @@
+* text=auto
+
+# 将 CRLF 转换为 LF
+*.js eol=lf
+*.cjs eol=lf
+*.mjs eol=lf
+*.ts eol=lf
+*.tsx eol=lf
+*.vue eol=lf
+*.scss eol=lf
+*.css eol=lf
+*.yaml eol=lf
+*.html eol=lf
+*.md eol=lf
+*.json eol=lf
+*.env eol=lf
+*.env.* eol=lf
+*.gitattributes eol=lf
+*.gitignore eol=lf
+*.npmrc eol=lf
+*.eslintignore eol=lf
+*.editorconfig eol=lf
+*.prettierrc eol=lf

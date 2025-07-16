@@ -12,5 +12,8 @@ export default defineConfig({
       name: 'index',
       fileName: 'index',
     },
+    rollupOptions: {
+      external: ['vite', 'fs/promises', 'path'],
+    },
   },
 });

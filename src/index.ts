@@ -1,6 +1,6 @@
 import { readdir, readFile, writeFile } from 'fs/promises';
 import { resolve } from 'path';
-import { loadEnv, Plugin, ResolvedConfig, UserConfig } from 'vite';
+import { loadEnv, type Plugin, type ResolvedConfig, type UserConfig } from 'vite';
 
 interface Options {
   /**

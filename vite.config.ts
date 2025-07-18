@@ -4,7 +4,7 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   plugins: [dts()],
   build: {
-    target: 'modules',
+    target: 'node12',
     emptyOutDir: true,
     lib: {
       entry: 'src/index.ts',
